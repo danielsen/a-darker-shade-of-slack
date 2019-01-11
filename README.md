@@ -28,5 +28,5 @@ repository and want to use the theme, fork it and change the URL in the JS to yo
 
 Based upon work from the following:
 
-[widget/slack-black-theme](https://github.com/widget-/slack-black-theme)
-[laCour/slack-night-mode](https://github.com/laCour/slack-night-mode)
+- [widget-/slack-black-theme](https://github.com/widget-/slack-black-theme)
+- [laCour/slack-night-mode](https://github.com/laCour/slack-night-mode)
