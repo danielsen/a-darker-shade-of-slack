@@ -58,7 +58,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 .client_channels_list_container { background-color: #363636; border-right-color: #222; }
 
-.TeamSidebar, .TeamSidebar .StoplightContainer, .TeamSidebar .TeamSidebar-addArea, .TeamBackground-sidebar { background-color: #363636 !important; color: #e6e6e6; z-index: 1; }
+.TeamSidebar, .TeamBackground, .TeamSidebar .StoplightContainer, .TeamSidebar .TeamSidebar-addArea, .TeamBackground-sidebar { background-color: #363636 !important; color: #e6e6e6; z-index: 1; }
 
 #col_channels { color: #e6e6e6; }
 
