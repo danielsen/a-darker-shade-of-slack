@@ -3,9 +3,10 @@ Dark themes for the Slack desktop client
 
 ### Installing
 
-Edit `/usr/lib/slack/resources/app.asar.unpacked/src/staticssb-interop.js`
-and append the following Javascript. 
+1. Edit `/usr/lib/slack/resources/app.asar.unpacked/src/staticssb-interop.js`
+and append the following Javascript. (mac: `/Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/staticssb-interop.js`)
 
+```javascript
     document.addEventListener('DOMContentLoaded', function() {
         $.ajax({
             url: 'https://raw.githubusercontent.com/danielsen/a-darker-shade-of-slack/master/css/black.css',
@@ -14,8 +15,9 @@ and append the following Javascript.
             }
         });
     });
+```
 
-Restart the Slack client to see the changes.
+2. Restart the Slack client to see the changes.
 
 ### Caveats
 
